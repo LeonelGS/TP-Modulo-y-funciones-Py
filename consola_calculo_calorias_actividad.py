@@ -19,7 +19,7 @@ while True:
         print("1. Poco o ningún ejercicio → 1.2")
         print("2. Ejercicio ligero (1 a 3 días/semana) → 1.375")
         print("3. Ejercicio moderado (3 a 5 días/semana) → 1.55")
-        print("4. Deportista (6 a 7 días/semana) → 1.72")
+        print("4. Deportista (6 a 7 días/semana) → 1.725")
         print("5. Atleta (entrenamientos mañana y tarde) → 1.9")
 
         opcion = input("Ingrese el número de la opción (1-5): ")
@@ -31,7 +31,7 @@ while True:
         elif opcion == "3":
             valor_actividad = 1.55
         elif opcion == "4":
-            valor_actividad = 1.72
+            valor_actividad = 1.725
         elif opcion == "5":
             valor_actividad = 1.9
         else:
